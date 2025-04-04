@@ -1,0 +1,28 @@
+{
+	"name": "voyage-craft-proxy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"watch": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/branham-dev/voyage-craft-proxy.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/branham-dev/voyage-craft-proxy/issues"
+	},
+	"homepage": "https://github.com/branham-dev/voyage-craft-proxy#readme",
+	"dependencies": {
+		"axios": "^1.8.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"nodemon": "^3.1.9"
+	}
+}
